@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded',function(){
     var anh = document.querySelectorAll('.picture') ;
     anh.forEach(function(e){
         e.addEventListener('click',function(){
-            alert(" Ảnh đẹp ha chị Yến ha :)))") ;
+            alert(" Ảnh đẹp lắm nha Lan nha mãi yêu :)))") ;
         })
     })
 
@@ -45,15 +45,15 @@ document.addEventListener('DOMContentLoaded',function(){
             }else if (e.className =="photo icon"){
                 close ("#photo");
             }else if (e.className =="facebook icon"){
-                window.location.href ="https://www.facebook.com/chuixx.cuixx"
+                window.location.href ="https://www.facebook.com/profile.php?id=61562371738825"
             }else if (e.className =="instagram icon"){
-                window.location.href ="https://www.instagram.com/yenhuynhhh289/"
+                window.location.href ="https://www.instagram.com/_tt.anhslan_/"
             }else if (e.className =="tiktok icon"){
-                window.location.href ="https://www.tiktok.com/@yenhuynh134"
+                window.location.href =""
             }
             
             else {
-                alert("Mấy phần này vội quá làm chưa tới chị Yến ơi  :D");
+                alert("Mấy phần này vội quá làm chưa kịp Lan ơi :D");
             }
         })
     })
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded',function(){
     }
 
 
-    const video = document.querySelector('#snvv');
+    const video = document.querySelector('#love');
     video.style.display = 'none';
     video.pause();
     video.currentTime = 0; 
